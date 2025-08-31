@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: boardgame-container
-        image: swaroophandson/boardgame:1
+        image: swaroophandson/boardgame:2
         ports:
         - containerPort: 8080
 
