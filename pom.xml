@@ -27,6 +27,8 @@
         <maven.compiler.target>21</maven.compiler.target>
         <jacoco.version>0.8.12</jacoco.version> <!-- Latest for JDK 21 -->
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
+        <sonar.host.url>http://65.0.204.23:9000/</sonar.host.url>
+        <sonar.login>sqa_fabcef521fee84826cf5c47c881bc7c178301ec9</sonar.login>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
         <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
         <sonar.language>java</sonar.language>
