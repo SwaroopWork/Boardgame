@@ -147,12 +147,12 @@
 
     <distributionManagement>
         <repository>
-            <id>maven-releases</id>
-            <url>http://13.200.255.132:8081/repository/maven-releases/</url>
+            <id>nexus</id>
+            <url>http://13.232.237.93:8081/repository/boardgamerelease/</url>
         </repository>
         <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://13.200.255.132:8081/repository/maven-snapshots/</url>
+            <id>nexus</id>
+            <url>http://13.232.237.93:8081/repository/boardgamesnapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
