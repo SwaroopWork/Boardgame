@@ -51,3 +51,20 @@ This web application displays lists of board games and their reviews. While anyo
   - username: bugs    |     password: bunny (user role)
   - username: daffy   |     password: duck  (manager role)
 5. You can also sign-up as a new user and customize your role to play with the application! 😊
+---------------------------------------------------------------------------------------------------------
+Jenkins CI/CD Pipeline Workflow
+This project uses a Jenkins freestyle pipeline with the following stages to implement a complete CI/CD workflow:
+
+Source Code Checkout – Retrieves the latest codebase from the Git repository.
+
+Build Phase – Compiles the application using Maven and generates build artifacts.
+
+Static Code Analysis – Performs code quality and security checks using SonarQube.
+
+Artifact Management – Publishes versioned build artifacts to Nexus Repository Manager for centralized storage.
+
+Containerization – Builds a Docker image of the application.
+
+Container Registry Integration – Authenticates with Docker Hub and pushes the Docker image for distribution.
+
+Kubernetes Deployment – Deploys the Docker image to Amazon EKS (Elastic Kubernetes Service) for scalable and reliable application hosting.
